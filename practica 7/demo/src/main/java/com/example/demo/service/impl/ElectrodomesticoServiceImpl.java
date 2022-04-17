@@ -30,4 +30,10 @@ public class ElectrodomesticoServiceImpl implements ElectrodomesticoService {
                         obj.getElecTiempoFuncionamiento()))
 				.toList();
 	}
+
+	@Override
+	public List<ClienteElectrodomesticoDTO> getElectrodomesticosConClientes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
